@@ -1,12 +1,47 @@
-# React + Vite
+# 🛍️ Inventory Item Manager – React Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based web app built as part of the AMRR TechSols Pvt Ltd internship assignment. It allows users to **add items**, view all items, and see detailed info with image previews.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Add Item Page**  
+  Users can add:
+  - Item Name  
+  - Item Type (e.g., Shirt, Shoes, etc.)  
+  - Description  
+  - Cover Image URL  
+  - Multiple additional images (with preview)
+
+- **View Items Page**  
+  Displays all added items (with Name + Cover Image).  
+  Clicking an item opens a modal with:
+  - Full details  
+  - Carousel of all images  
+  - "Enquire" button  
+
+- ✅ Items are saved using localStorage (persist across refreshes)
+- ✅ Success message after item is added
+
+---
+
+## 🌟 Bonus Features
+
+- [x] Upload and preview multiple images before saving  
+- [x] Preview cover image URL  
+- [ ] API/database integration (placeholder for future)  
+- [ ] Send email on "Enquire" button click (optional extension)
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **React** (with React Router DOM)  
+- **Tailwind CSS** (for modern UI)  
+- LocalStorage (for persistent data)  
+- Vanilla JS for image previews
+
+
+
